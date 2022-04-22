@@ -19,7 +19,6 @@ There are several questions I asked myself about the data, and these are five qu
 The following are details of the programming language and libraries used in building this project: <br>
 - [**pandas**](https://pandas.pydata.org/)<br>
 - [**NumPy**](https://numpy.org/)<br>
-- [**MySQL**](https://www.mysql.com/products/connector/)<br>
 - [**seaborn**](https://seaborn.pydata.org/)<br>
 - [**matplotlib**](https://matplotlib.org/)<br>
 
@@ -30,6 +29,19 @@ The following are details of the programming language and libraries used in buil
 4. Step 4: Data preprocessing
 5. Step 5: Data analysis
 6. Step 6: Data communication (visualize and share the results)
+
+## Conclusion
+These are the summary of what I have done.
+- The age group that uses the city bike rental the most is Gen X with an age range of 40–55 years. And the gender that uses the Citybike rental the most is men.
+- The highest total daily borrowing of bicycles is Thursday with a total of 3,076 transactions and the most daily borrowing times today are 08 AM, 04 PM, and 06 PM. Then in second place for the most total daily bicycle borrowings is Friday with a total of 950 transactions and the most daily borrowing time today is 08 AM. Finally, for the most daily total borrowed bicycles, the next is Tuesday with a total of 924 transactions and the most daily borrowing time today is 08 AM.
+- The day that has the most bicycles borrowed is Thursday with a total of 8,470 transactions.
+- The 5 favorite departure stations for borrowing bicycles and favorite times are:
+i.) Grove St PATH with favorite times for borrowing bicycles is 05 AM, 06 AM, 07 PM and 08 PM.
+ii.) Hamilton Park with favorite time to rent bicycles is 08 AM.
+iii.) Columbus Dr at Exchange P1 with favorite time to rent a bike is 5 PM.
+iv.) Sip Ave with favorite time to borrow bicycles is 06 PM.
+v.) Newport PATH favorite time to rent bikes is 05 PM.
+- The user’s age does not affect the duration of the bicycle borrowing (trip duration by the minute), and vice versa. Because the results of the visualization above do not show a pattern of relationship between User Age and Borrowing Time. Although the Mean Absolute Error (MAE) value obtained from the model made is 4 minutes from the time value of the original data.
 
 ## Additional Note
 Please read the following link for further information about this project's documentation:<br>
